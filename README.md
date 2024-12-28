@@ -11,6 +11,7 @@ but also aids in refining and learning through an intuitive interface.
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Live Models](#live-models)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
@@ -63,6 +64,13 @@ To get started with Learn AI, follow these steps:
 5. Respond to AI-generated questions to refine your prompt.
 6. Receive a polished, AI-optimized prompt tailored to your needs.
 7. Save and revisit both rough and refined prompts for continuous learning.
+
+---
+
+## Live Models
+Explore the live versions of our projects:
+- **Learn AI Web App**: [https://ajs-learn-ai.streamlit.app/](https://ajs-learn-ai.streamlit.app/)
+- **Other Projects**: [https://linktr.ee/joyboy0599](https://linktr.ee/joyboy0599)
 
 ---
 
