@@ -1,0 +1,10 @@
+streamlit
+streamlit-option-menu 
+pymongo
+dnspython
+python-dotenv
+google-generativeai
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
