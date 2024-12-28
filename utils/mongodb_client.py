@@ -1,11 +1,11 @@
 from pymongo import MongoClient
 import os
 from dotenv import load_dotenv
-
+import streamlit as st
 load_dotenv()
 
 def get_client():
-    URI = "mongodb+srv://ayushjainsparsh2004ajs:Learn-AI-AJS@learn-ai.2nkjs.mongodb.net/?retryWrites=true&w=majority&appName=Learn-AI"
+    URI = st.secrets["MONGODB_URI"]
     client = MongoClient(URI , tls = True , tlsAllowInvalidCertificates = False)
     return client["learn-ai"]
 

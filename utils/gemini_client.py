@@ -1,7 +1,7 @@
 import os # to use operating system resources
 import google.generativeai as genai # to generate ai
 from dotenv import load_dotenv # to create a local environment
-
+import streamlit as st
 load_dotenv()
 
 generation_config = {
@@ -23,7 +23,8 @@ def get_gemini_model(config=generation_config):
     Returns:
         GenerativeModel: An initialized Gemini GenerativeModel.
     """
-    genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+    genai.configure(#api_key=os.getenv("GEMINI_API_KEY")
+        api_key=st.secrets["GEMINI_API_KEY"])
 
     # Initialize the model with dynamic configuration
     return genai.GenerativeModel(
